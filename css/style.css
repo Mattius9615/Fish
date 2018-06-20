@@ -1,0 +1,39 @@
+header {
+  height: 169px;
+  width: 100%;
+  font-family: Helvetica;
+  background-color: black;
+  z-index: 1;
+  text-decoration: underline;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+body {
+  background-color: purple;
+  font-size: 22px;
+  color: seashell;
+
+}
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+a {
+  color: seashell;
+}
+#main-content {
+  height: 1500px;
+  background-image: url(../resources/images/newfiegirl.jpg);
+  padding-top: 1000px;
+
+}
+h2 {font-size: 100px;
+
+}
