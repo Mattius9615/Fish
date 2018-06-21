@@ -1,5 +1,5 @@
 header {
-  height: 169px;
+  height: 200px;
   width: 100%;
   font-family: Helvetica;
   background-color: black;
@@ -31,21 +31,18 @@ a {
   color: seashell;
 }
 #main-content {
-  height: 1500px;
+  
   background-image: url(../resources/images/newfiegirl.jpg);
   padding-top: 1000px;
-  z-index: 0;
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-
+width: 100%;
 }
 h2 {font-size: 100px;
 
 }
 img {margin: 10px auto;
 height: auto;
-width: auto;}
+width: 100%;
+display: flex;}
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -54,3 +51,8 @@ width: auto;}
 .col {display: inline-flex;
 flex-direction: column;
 justify-content: space-between;}
+
+.container {margin: 0 auto;
+}
+.spacer {max-width: 1200px;
+margin:auto;}
